@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Про нас — Кав’ярня “Філіжанка”</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo" data-i18n="brand_name">Кав’ярня “Філіжанка”</a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link" data-i18n="nav_home">Головна</a>
+                <a href="about.html" class="nav-link active" data-i18n="nav_about">Про нас</a>
+                <a href="services.html" class="nav-link" data-i18n="nav_services">Меню</a>
+                <a href="gallery.html" class="nav-link" data-i18n="nav_gallery">Галерея</a>
+                <a href="contacts.html" class="nav-link" data-i18n="nav_contacts">Контакти</a>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="burger-btn" id="burgerBtn" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="nav_about">Про нас</h1>
+            </div>
+        </section>
+
+        <section class="about-section section-padding">
+            <div class="container">
+                <div class="about-content">
+                    <p data-i18n="about_p1">Кав’ярня “Філіжанка” — це атмосферний заклад у самому серці Білої Церкви, розташований за адресою вул. Ярослава Мудрого, 11. Тут на вас чекає справжня затишна атмосфера, приємний інтер'єр та уважне обслуговування, що створює ідеальні умови для спокійного відпочинку чи дружніх зустрічей.</p>
+                    <p data-i18n="about_p2">Заклад пропонує широкий асортимент кавових напоїв, зокрема класичну каву по-турецьки, ароматний чай, свіжі десерти та кондитерські вироби. Кожна чашка кави готується з турботою про якість та смак, щоб подарувати вам справжню насолоду та гарний настрій на весь день.</p>
+                    <p data-i18n="about_p3">Завдяки зручному розташуванню та гостинній атмосфері, “Філіжанка” стала улюбленим місцем для багатьох мешканців та гостей міста. Завітайте до нас, щоб насолодитися улюбленим напоєм та смаколиками у приємній компанії.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3 data-i18n="brand_name">Кав’ярня “Філіжанка”</h3>
+                <p data-i18n="footer_desc">Затишний заклад у Білій Церкві.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_hours_title">Графік роботи</h4>
+                <p>Пн-Пт 07:00-21:00</p>
+                <p>Сб-Нд 10:00-22:00</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts_title">Контакти</h4>
+                <p>вул. Ярослава Мудрого, 11, Біла Церква</p>
+                <p>Телефон: <a href="tel:+380966878810">+380 96 687 8810</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2024 Кав’ярня “Філіжанка”. <span data-i18n="all_rights">Всі права захищені.</span></p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
