@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти — Кав’ярня “Філіжанка”</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo" data-i18n="brand_name">Кав’ярня “Філіжанка”</a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link" data-i18n="nav_home">Головна</a>
+                <a href="about.html" class="nav-link" data-i18n="nav_about">Про нас</a>
+                <a href="services.html" class="nav-link" data-i18n="nav_services">Меню</a>
+                <a href="gallery.html" class="nav-link" data-i18n="nav_gallery">Галерея</a>
+                <a href="contacts.html" class="nav-link active" data-i18n="nav_contacts">Контакти</a>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="burger-btn" id="burgerBtn" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="nav_contacts">Контакти</h1>
+            </div>
+        </section>
+
+        <section class="contacts-section section-padding">
+            <div class="container">
+                <div class="contacts-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <h3 data-i18n="contact_address_title">Адреса</h3>
+                            <p>вул. Ярослава Мудрого, 11, Біла Церква, Київська область, 09100</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3 data-i18n="contact_phone_title">Телефон</h3>
+                            <p><a href="tel:+380966878810">+380 96 687 8810</a></p>
+                        </div>
+                        <div class="contact-item">
+                            <h3 data-i18n="contact_hours_title">Графік роботи</h3>
+                            <p data-i18n="hours_val">Пн-Пт 07:00-21:00, Сб-Нд 10:00-22:00</p>
+                        </div>
+                        <div class="contact-item">
+                            <a href="https://www.google.com/maps/search/?api=1&query=вул.+Ярослава+Мудрого,+11,+Біла+Церква" target="_blank" rel="noopener" class="btn btn-primary" data-i18n="map_btn">Відкрити на Google Картах</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3 data-i18n="brand_name">Кав’ярня “Філіжанка”</h3>
+                <p data-i18n="footer_desc">Затишний заклад у Білій Церкві.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_hours_title">Графік роботи</h4>
+                <p>Пн-Пт 07:00-21:00</p>
+                <p>Сб-Нд 10:00-22:00</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts_title">Контакти</h4>
+                <p>вул. Ярослава Мудрого, 11, Біла Церква</p>
+                <p>Телефон: <a href="tel:+380966878810">+380 96 687 8810</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2024 Кав’ярня “Філіжанка”. <span data-i18n="all_rights">Всі права захищені.</span></p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
