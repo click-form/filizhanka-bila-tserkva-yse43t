@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кав’ярня “Філіжанка” у Білій Церкві</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo" data-i18n="brand_name">Кав’ярня “Філіжанка”</a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link active" data-i18n="nav_home">Головна</a>
+                <a href="about.html" class="nav-link" data-i18n="nav_about">Про нас</a>
+                <a href="services.html" class="nav-link" data-i18n="nav_services">Меню</a>
+                <a href="gallery.html" class="nav-link" data-i18n="nav_gallery">Галерея</a>
+                <a href="contacts.html" class="nav-link" data-i18n="nav_contacts">Контакти</a>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="burger-btn" id="burgerBtn" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <h1 data-i18n="hero_title">Затишна кав’ярня “Філіжанка” у Білій Церкві</h1>
+                <p data-i18n="hero_subtitle">Атмосферний заклад у самому серці Білої Церкви з неперевершеною кавою та свіжими десертами.</p>
+                <div class="hero-buttons">
+                    <a href="services.html" class="btn btn-primary" data-i18n="btn_menu">Переглянути меню</a>
+                    <a href="contacts.html" class="btn btn-secondary" data-i18n="btn_contacts">Як нас знайти</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="features section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 data-i18n="features_title">Чому обирають нас</h2>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">☕</div>
+                        <h3 data-i18n="feat_1_title">Справжня кава</h3>
+                        <p data-i18n="feat_1_desc">Класична кава по-турецьки, флет вайт та інші улюблені напої.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">✨</div>
+                        <h3 data-i18n="feat_2_title">Затишна атмосфера</h3>
+                        <p data-i18n="feat_2_desc">Ідеальне місце для відпочинку, зустрічей з друзями та спокійного часу.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🍰</div>
+                        <h3 data-i18n="feat_3_title">Свіжі десерти</h3>
+                        <p data-i18n="feat_3_desc">Кондитерські вироби та смаколики на нашій вітрині щодня.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta section-padding bg-light">
+            <div class="container text-center">
+                <h2 data-i18n="cta_title">Завітайте до нас на горнятко запашної кави</h2>
+                <p data-i18n="cta_desc">вул. Ярослава Мудрого, 11, Біла Церква</p>
+                <a href="contacts.html" class="btn btn-primary" data-i18n="cta_btn">Контакти та графік</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3 data-i18n="brand_name">Кав’ярня “Філіжанка”</h3>
+                <p data-i18n="footer_desc">Затишний заклад у Білій Церкві.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_hours_title">Графік роботи</h4>
+                <p>Пн-Пт 07:00-21:00</p>
+                <p>Сб-Нд 10:00-22:00</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts_title">Контакти</h4>
+                <p>вул. Ярослава Мудрого, 11, Біла Церква</p>
+                <p>Телефон: <a href="tel:+380966878810">+380 96 687 8810</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2024 Кав’ярня “Філіжанка”. <span data-i18n="all_rights">Всі права захищені.</span></p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
